@@ -1,0 +1,30 @@
+canvas {
+  width: 100%;
+  image-rendering: optimizeSpeed; /* firefox */
+  image-rendering: pixelated; /* chrome */
+}
+main {
+  width: 100vw;
+}
+html,
+body {
+  height: 100%;
+  margin: 0;
+  color: #777;
+}
+body {
+  display: flex;
+  font-family: Hack, monospace;
+}
+h1,
+span {
+  font-size: 15px;
+  margin: 6px 0;
+  font-weight: bold;
+}
+section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 10px;
+}
